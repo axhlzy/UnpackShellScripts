@@ -10,6 +10,12 @@
 [frida-unpack](https://github.com/dstmath/frida-unpack)
 - 基于断点libdexfile.so中的[OpenCommon](https://cs.android.com/android/platform/superproject/+/master:art/libdexfile/dex/dex_file_loader.cc;l=316?q=OpenCommon&sq=&ss=android%2Fplatform%2Fsuperproject)函数
 
+[dumpDex](https://github.com/WrBug/dumpDex)
+- 需要配合xposed使用，xp框架在这里仅仅是起到一个加载so的目的（也可以不用xposed，替代的方法很多），本质是使用的ele7enxxh的[inlinehook](https://github.com/ele7enxxh/Android-Inline-Hook)框架，判断安卓版本后hook指定的脱壳点并dump出dex
+
+[drizzleDumper](https://github.com/DrizzleRisk/drizzleDumper)
+- 通过/proc/%s/cmdline遍历去找到指定PackageName的pid,fork出子进程attach到目标pid，然后就是和一套内存搜索组合拳打进去，再dump dex
+
 ---
 ### 脱壳点：
 #### **Android 9.0** (OpenCommon)
