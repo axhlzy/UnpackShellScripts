@@ -26,7 +26,11 @@
 ##### 32 _ZN3art7DexFile10OpenCommonEPKhjRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEjPKNS_10OatDexFileEbbPS9_PNS0_12VerifyResultE
 ##### 64 _ZN3art7DexFile10OpenCommonEPKhmRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEjPKNS_10OatDexFileEbbPS9_PNS0_12VerifyResultE
 
-#### **Android 7.0 ~ 6.0** (OpenMemory)
+#### **Android 7.0 ~ 5.0** (OpenMemory)
 ##### 32 _ZN3art7DexFile10OpenMemoryEPKhjRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEjPNS_6MemMapEPKNS_10OatDexFileEPS9_
 ##### 64 _ZN3art7DexFile10OpenMemoryEPKhmRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEjPNS_6MemMapEPKNS_10OatDexFileEPS9_
+
+#### **Android < 5.0** (dvmDexFileOpenPartial 和 dexFileParse)
+##### dvmDexFileOpenPartial(addr, len, &pDvmDex)
+##### dexFileParse(const u1* data, size_t length, int flags)
 
