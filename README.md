@@ -16,6 +16,9 @@
 [drizzleDumper](https://github.com/DrizzleRisk/drizzleDumper)
 - 通过/proc/%s/cmdline遍历去找到指定PackageName的pid,fork出子进程attach到目标pid，然后就是和一套内存搜索组合拳打进去，再dump dex
 
+[BlackDex](https://github.com/CodingGay/BlackDex)
+- 支持5.0以上，指令回填，区分32、64应用，基于虚拟机实现
+
 [FART](https://github.com/hanbinglengyue/FART)
 - 基于Android 6.0实现主动调用的脱壳机
 
