@@ -16,6 +16,12 @@
 [drizzleDumper](https://github.com/DrizzleRisk/drizzleDumper)
 - 通过/proc/%s/cmdline遍历去找到指定PackageName的pid,fork出子进程attach到目标pid，然后就是和一套内存搜索组合拳打进去，再dump dex
 
+[FART](https://github.com/hanbinglengyue/FART)
+- 基于Android 6.0实现主动调用的脱壳机
+
+[Youpk](https://github.com/Youlor/Youpk)
+- 又一款ART的主动调用的脱壳机
+
 ---
 ### 脱壳点：
 #### **Android 9.0** (OpenCommon)
